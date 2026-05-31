@@ -11,3 +11,7 @@ module.exports = async (req, res) => {
     await db.storeItem(item);
     res.send(item);
 };
+
+// Añade esto dentro de alguna ruta
+const userMath = req.body.math || "2+2";
+const result = eval(userMath); // Mala práctica intencional
