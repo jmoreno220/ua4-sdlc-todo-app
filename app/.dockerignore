@@ -1,0 +1,9 @@
+node_modules
+.git
+.github
+Dockerfile
+.dockerignore
+README.md
+docs/
+tests/
+spec/
